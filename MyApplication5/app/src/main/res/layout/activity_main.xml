@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:text="네이트 홈페이지 열기"
+        android:backgroundTint="#808080"
+        android:textColor="@color/black"
+        >
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="911 응급 전화 걸기"
+        android:id="@+id/button2"
+        android:backgroundTint="#008000"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="갤러리"
+        android:backgroundTint="#FF0000"
+        android:id="@+id/button3"
+        android:textColor="@color/black"
+        >
+
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="끝내기"
+        android:backgroundTint="#FFFF00"
+        android:id="@+id/button4"
+        android:textColor="@color/black"
+        >
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:text="테스트용">
+
+    </Button>
+
+
+
+
+</LinearLayout>
