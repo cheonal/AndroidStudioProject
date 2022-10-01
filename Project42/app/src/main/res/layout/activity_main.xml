@@ -24,11 +24,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="좋아하는 애완동물은?"
+        android:id="@+id/textview"
         android:visibility="invisible"/>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/rdgroup"
         android:visibility="invisible">
         <RadioButton
             android:layout_width="match_parent"
