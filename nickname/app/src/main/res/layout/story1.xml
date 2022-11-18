@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/story1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/talkbox"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="크리스마스 이브,루돌프와 산타는 아이들을 위해 크리스마스 선물을 배달하러 떠난다.
+요정은 산타에게서 떨어진 편지를 줍는다. 편지에는 알 수 없는 암호로 구성되어 있는데…"
+            android:textSize="23dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="다음 ▶"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:id="@+id/nbtn1"/>
+
+    </LinearLayout>
+</LinearLayout>
