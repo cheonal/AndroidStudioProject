@@ -69,18 +69,21 @@
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:layout_margin="15dp"
+            android:visibility="invisible"
             android:text="우유"
             android:id="@+id/item1"/>
         <Button
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:layout_margin="15dp"
+            android:visibility="invisible"
             android:text="담요"
             android:id="@+id/item2"/>
         <Button
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:layout_margin="15dp"
+            android:visibility="invisible"
             android:text="개껌"
             android:id="@+id/item3"/>
     </LinearLayout>
@@ -93,11 +96,13 @@
             android:layout_height="50dp"
             android:layout_margin="15dp"
             android:text="장난감"
+            android:visibility="invisible"
             android:id="@+id/item4"/>
         <Button
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:text="강아지 옷"
+            android:visibility="invisible"
             android:layout_margin="15dp"
             android:id="@+id/item5"/>
     </LinearLayout>
@@ -110,5 +115,11 @@
         android:id="@+id/goal"
         android:visibility="invisible"
         android:text="정답 확인"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/reset"
+        android:text="초기화"/>
 
 </LinearLayout>

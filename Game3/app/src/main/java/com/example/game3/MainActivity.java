@@ -73,22 +73,22 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "너무 밝아서 안보인다", Toast.LENGTH_SHORT).show();
                 }
                 if (num==0){
-                    Toast.makeText(MainActivity.this, "ㅎ,ㅇ,1", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "ㅎ,ㅇ,ㅇ", Toast.LENGTH_SHORT).show();
                 }
                 if (num==1){
-                    Toast.makeText(MainActivity.this, "ㅡ,ㅏ,1", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "ㅡ,ㅏ,ㅗ", Toast.LENGTH_SHORT).show();
                 }
                 if (num==2){
-                    Toast.makeText(MainActivity.this, "ㄱ,ㄴ,살", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "ㄱ,ㄴ,ㅣ", Toast.LENGTH_SHORT).show();
                 }
                 if (num==3){
-                    Toast.makeText(MainActivity.this, "ㅇ,ㄱ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "ㅇ,ㄱ,ㄷ", Toast.LENGTH_SHORT).show();
                 }
                 if (num==4){
-                    Toast.makeText(MainActivity.this, "ㅣ,ㅕ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "ㅣ,ㅕ,ㅗ", Toast.LENGTH_SHORT).show();
                 }
                 if (num==5){
-                    Toast.makeText(MainActivity.this, "ㄴ,ㅇ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "ㄴ,ㅇ,ㅇ", Toast.LENGTH_SHORT).show();
                 }
                 color+=0.2f;
                 num ++;
@@ -105,22 +105,22 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "깜깜해서 안보인다", Toast.LENGTH_SHORT).show();
                 }
                 if (num==2){
-                    Toast.makeText(MainActivity.this, "ㅎ,ㅇ,1", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "ㅎ,ㅇ,ㅇ", Toast.LENGTH_SHORT).show();
                 }
                 if (num==3){
-                    Toast.makeText(MainActivity.this, "ㅡ,ㅣ,1", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "ㅡ,ㅣ,ㅗ", Toast.LENGTH_SHORT).show();
                 }
                 if (num==4){
-                    Toast.makeText(MainActivity.this, "ㄱ,ㄴ,살", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "ㄱ,ㄴ,ㅣ", Toast.LENGTH_SHORT).show();
                 }
                 if (num==5){
-                    Toast.makeText(MainActivity.this, "ㅇ,ㄱ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "ㅇ,ㄱ,ㄷ", Toast.LENGTH_SHORT).show();
                 }
                 if (num==6){
-                    Toast.makeText(MainActivity.this, "ㅣ,ㅕ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "ㅣ,ㅕ,ㅗ", Toast.LENGTH_SHORT).show();
                 }
                 if (num==7){
-                    Toast.makeText(MainActivity.this, "ㄴ,ㅇ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "ㄴ,ㅇ,ㅇ", Toast.LENGTH_SHORT).show();
                 }
                 color-=0.2f;
                 num --;
